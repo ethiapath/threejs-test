@@ -1,0 +1,33 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three.js</title>
+    <meta name="description" content="Three.js on Glitch">
+    <script src="/three.min.js"></script>
+		<script src="/SVGRenderer.js"></script>
+    <script src="/Projector.js"></script>   
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Three.js Demo
+      </h1>
+    </header>
+    
+
+    <a id="convert" href="#">Save as SVG</a>
+    <a id="downloadFile"></a>
+    <br />
+    <br />
+    <div id="svg" style="display:none"></div>
+<!--     
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>  
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script> -->
+    <div id="canvas-container"></div>
+    <script src="/demo.js"></script>
+  </body>
+</html>
